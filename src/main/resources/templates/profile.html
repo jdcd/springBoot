@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+<head>
+<meta charset="UTF-8">
+<title th:text="${title}">Insert title here</title>
+</head>
+<body>
+<h1 th:text=${title}></h1>
+<span th:text=${user.name}></span>
+<span th:text=${user.surname}></span>
+<span th:if=${user.email} th:text=${user.email}></span>
+</body>
+</html>
